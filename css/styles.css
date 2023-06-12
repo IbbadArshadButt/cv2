@@ -1,0 +1,158 @@
+/* Text align is used to align/center objects when they are given without width*/
+body{ 
+color: #40514e;
+margin: 0;
+text-align: center;
+font-family: 'Merriweather', serif;}
+
+/* Box Model has been used and implemented
+   it has three parts namely margin padding and border.
+   boder is thick covering,padding is the space b/w border and text,margin is the space b/w different elements*/
+h1{ 
+margin: 50px auto 0 auto; 
+color: #66BFBF;
+line-height: 2;
+font-family:'Sacramento', cursive;
+font-size:  5.625rem;}
+/*margin:0 auto 0 auto;} 
+Margin:Auto is one other method used to center objects(with widthgiven) vertical or horizontal.*/
+
+h2{ 
+color: #66BFBF;
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+font-weight: normal;
+padding-bottom: 10px;
+}
+
+h3{ 
+color: #11999E;
+font-family: 'Montserrat', sans-serif;}
+
+/* .btn{ color: #11999E;
+border-radius: 8px;} */
+/* Below code can be used when our intro line has to be adjusted in width. */
+/* .intro{ width: 30%; */
+/*  margin: auto;} */
+
+p{line-height: 2;}
+
+a{color: #11999E;
+font-family: 'Montserrat', sans-serif;
+text-decoration: none;} 
+
+a:hover{color: #EAF6F6;}
+
+hr{
+/* Method 1 of styling the hr by Angela */
+border:dotted #EAF6F6 6px;
+border-bottom: none;
+width: 5%;
+/* Method 2 from me:
+border-style: none;
+border-color:#EAF6F6;
+border-top-style: dotted;
+border-width: 7px; 
+border-style: none;
+width: 10px; */
+}
+
+.footer-link{color:#40514e;
+   margin: 30px 20px 50px;
+/* margin-right: 40px; */
+position: relative;}
+/* top: 50px;} */
+
+.top-container{
+position:relative;
+background-color: #E4F9F5;
+padding-top: 3%;}
+
+.middle-container{ margin: 100px auto 100px auto;}
+   
+.bottom-container{ background-color: #66BFBF;
+height: 100px;
+
+/* Styling method 1 
+my method
+ margin: 100px auto 0 auto; 
+ padding-bottom: 0%; */
+
+/* Styling Method 2 
+angelas method */
+padding: 50px 0 20px;
+line-height: 2;} 
+   
+
+.pro{ text-decoration: underline;}
+/* since span was used as for giving different look so it required this css.*/
+
+.top-cloud{
+position: absolute;
+right: 400px;
+top: 40px;}
+
+.bottom-cloud{ 
+position: absolute;
+left: 350px;
+bottom:300px;}
+
+.skill-row{ 
+margin: 100px auto 100px auto;
+width: 50%;
+text-align: left;}
+
+.Development{ 
+width: 25%;
+float: left;
+/* clear: left; */
+padding-right: 30px;}
+/* margin-right: 30px;} */
+
+.soft-skills{ 
+width: 25%;
+float: right;
+/* clear: right; */
+padding-left: 30px;}
+/* margin-right: 30px;} */
+
+.hello-h2{font-weight: bold;}
+.get-h2{font-weight: bold;}
+.my-h2{font-weight: bold;}
+
+.copyright{color: #EAF6F6;
+position: relative;
+top: 10px;
+font-size: 0.75rem;}
+   
+.contact-me{width: 40%;
+margin: 50px auto 100px;}
+
+.btn{
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
